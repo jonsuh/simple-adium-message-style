@@ -1,0 +1,148 @@
+/*!==================================================
+// Name   : Simple
+// Version: 1.0
+// Author : Jonathan Suh
+// Website: www.jonsuh.com
+// Email  : hello@jonsuh.com
+// ===================================================*/
+body {
+  background: #eceff1; }
+
+.message {
+  display: table; }
+
+.avatar, .body {
+  display: table-cell;
+  vertical-align: bottom; }
+
+.body-text, .timestamp {
+  padding: 0.625em;
+  display: inline-block; }
+
+.message-container {
+  overflow: hidden;
+  padding-bottom: 0.625em; }
+
+.message {
+  min-width: 100%;
+  padding: 0.3125em;
+  opacity: 0;
+  -webkit-animation-duration: 200ms;
+  animation-duration: 200ms;
+  -webkit-animation-timing-function: ease-in;
+  animation-timing-function: ease-in;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards; }
+
+.avatar {
+  width: 2.875em; }
+
+.avatar-image {
+  width: 2.875em;
+  height: 2.875em;
+  border: 1px solid #d1d8dd;
+  border-radius: 50%;
+  display: block; }
+
+.body-text {
+  max-width: 60%;
+  border-radius: 1em;
+  padding-left: 0.9375em;
+  padding-right: 0.9375em;
+  border: 1px solid transparent;
+  box-shadow: 0 1px 0 #e1e6e9; }
+  .body-text img {
+    max-width: 100%;
+    height: auto; }
+
+.body-text-separator {
+  height: 0.46875em; }
+
+.status {
+  text-align: center;
+  padding: 0.625em 0; }
+
+.status-text {
+  font-size: 0.9375em;
+  color: #90a4ae;
+  font-weight: bold;
+  text-shadow: 0 1px 0 #fff; }
+
+.timestamp {
+  color: #90a4ae;
+  text-shadow: 0 1px 0 #fff;
+  opacity: 0;
+  -webkit-transition-property: opacity;
+  -moz-transition-property: opacity;
+  transition-property: opacity;
+  -webkit-transition-duration: 200ms;
+  transition-duration: 200ms;
+  -webkit-transition-delay: 150ms;
+  transition-delay: 150ms;
+  -webkit-transition-timing-function: ease;
+  transition-timing-function: ease; }
+
+.message:hover .timestamp {
+  opacity: 1; }
+
+.message--in {
+  -webkit-animation-name: message-incoming;
+  animation-name: message-incoming; }
+  .message--in .body {
+    padding-left: 0.625em; }
+  .message--in .body-text {
+    color: #000;
+    background: #fff;
+    border-color: #cbd3d9; }
+
+.message--out {
+  float: right;
+  -webkit-animation-name: message-outgoing;
+  animation-name: message-outgoing; }
+  .message--out .body {
+    text-align: right;
+    padding-right: 0.625em; }
+  .message--out .body-text {
+    color: #fff;
+    background: #37a2f4;
+    border-color: #0c86e3; }
+
+@-webkit-keyframes message-incoming {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-6.25em); }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0); } }
+
+@keyframes message-incoming {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-6.25em);
+    transform: translateX(-6.25em); }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0); } }
+
+@-webkit-keyframes message-outgoing {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(6.25em); }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0); } }
+
+@keyframes message-outgoing {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(6.25em);
+    transform: translateX(6.25em); }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    transform: translateX(0); } }
