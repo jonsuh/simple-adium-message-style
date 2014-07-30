@@ -30,6 +30,19 @@ At the root of the project:
 
 To build the theme, run `grunt build` or just `grunt` if you want to watch and build when you make changes.
 
+## Author
+
+Jonathan Suh
+[www.jonsuh.com](http://jonsuh.com)
+<hello@jonsuh.com>
+
+## License
+
+Copyright &copy; 2014 Jonathan Suh
+
+Feel free to use under the MIT license.
+http://www.opensource.org/licenses/mit-license.php
+
 ## Changelog
 
 ### 1.0
