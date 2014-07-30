@@ -32,10 +32,8 @@ To build the theme, run `grunt build` or just `grunt` if you want to watch and b
 
 ## Author
 
-Jonathan Suh
-
-[www.jonsuh.com](http://jonsuh.com)
-
+Jonathan Suh  
+[www.jonsuh.com](http://jonsuh.com)  
 <hello@jonsuh.com>
 
 ## License
