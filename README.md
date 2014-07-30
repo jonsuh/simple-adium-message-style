@@ -3,6 +3,8 @@ Simple Adium Message Style
 
 Simple is an clean and simple message style for [Adium](http://adium.im), an OS X instant messaging client.
 
+![](http://cl.ly/image/1z3D0y1q0T3b/simple-adium-message-style-preview.gif)
+
 I created this for myself and decided to share it. I included all the development files in case you wanted to customize it.
 
 ## Install
