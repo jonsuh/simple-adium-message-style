@@ -40,7 +40,7 @@ Jonathan Suh
 
 Copyright &copy; 2014 Jonathan Suh
 
-Feel free to use under the MIT license.
+Feel free to use under the MIT license.  
 http://www.opensource.org/licenses/mit-license.php
 
 ## Changelog
