@@ -1,0 +1,15 @@
+// ==================================================
+// Variables
+// ==================================================
+
+// Colors
+// ==================================================
+$white            : #fff;
+$black            : #000;
+$ghost            : #eceff1;
+
+$blue             : #37a2f4;
+$blue-border-color: scale-color($blue, $lightness: -20%);
+$blue-grey        : #90a4ae;
+
+$border-color     : scale-color($ghost, $lightness: -12%);
