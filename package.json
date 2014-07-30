@@ -1,0 +1,12 @@
+{
+  "name": "simple-adium-message-style",
+  "author": "Jonathan Suh",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "node-sass": "^0.9.3",
+    "jit-grunt": "^0.7.0",
+    "time-grunt": "^0.4.0",
+    "grunt-sass": "^0.14.0",
+    "grunt-contrib-watch": "^0.6.1"
+  }
+}

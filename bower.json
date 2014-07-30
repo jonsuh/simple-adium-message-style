@@ -1,0 +1,8 @@
+{
+  "name": "simple-adium-message-style",
+  "author": "Jonathan Suh",
+  "dependencies": {},
+  "devDependencies": {
+    "bourbon": "~3.2.1"
+  }
+}
